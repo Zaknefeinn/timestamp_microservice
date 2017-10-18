@@ -1,18 +1,18 @@
 {
-  "name": "fcc-learn-npm-package-json",
-  "dependencies": {
-    "express": "^4.16.2",
-    "mongodb": "^2.2.33"
-  },
-  "main": "server.js",
+  "name": "ts-micro",
+  "version" : "1.0.0",
+  "description": "Timestamp Microservice",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "4.4.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://idontknow/todo.git"
+  "author":"zaknefeinn@gmail.com",
+    "license": "ISC",
+"dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.19.1"
   }
+ 
 }
+
